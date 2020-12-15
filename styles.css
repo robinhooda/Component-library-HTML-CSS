@@ -41,7 +41,30 @@ hr {
     list-style-type: none;
 }
 
-.inline-lists li{
+.inline-lists li {
     display: inline;
     padding: 0rem 1rem;
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    padding: 1rem 0;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation ul{
+    text-align: end;
+}
+
+.brandName{
+    color: white;
+    font-weight: bold;
+}
+
+.navigation a{
+    color: white;
+}
+
+.navigation .active{
+    font-weight: bold;
 }
