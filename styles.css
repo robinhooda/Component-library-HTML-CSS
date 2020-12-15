@@ -2,7 +2,8 @@
 
 :root {
     --primary-color: #059669;
-    --light-purple:#4c4981;
+    --light-purple: #4c4981;
+    --light-gray: #F3F4F6;
 }
 
 body {
@@ -71,7 +72,7 @@ hr {
     font-weight: bold;
 }
 
-.hero{
+.hero {
     text-align: center;
 }
 
@@ -79,6 +80,32 @@ hr {
     max-width: 350px;
 }
 
-.hero h1{
+.hero h1 {
     color: var(--light-purple);
+}
+
+.section {
+    padding: 2rem 0;
+}
+
+.section h2 {
+    text-align: center;
+}
+
+.off-white {
+    background-color: var(--light-gray);
+}
+
+.footer .section {
+    background-color: var(--primary-color);
+    border-top-right-radius: 1rem;
+}
+
+.footer .heading, a {
+    color: white;
+}
+
+.footer ul{
+    text-align: center;
+    padding: 0;
 }
