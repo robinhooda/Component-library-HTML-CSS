@@ -2,6 +2,7 @@
 
 :root {
     --primary-color: #059669;
+    --light-purple:#4c4981;
 }
 
 body {
@@ -46,25 +47,38 @@ hr {
     padding: 0rem 1rem;
 }
 
-.navigation{
+.navigation {
     background-color: var(--primary-color);
     padding: 1rem 0;
     border-bottom-left-radius: 1rem;
 }
 
-.navigation ul{
+.navigation ul {
     text-align: end;
 }
 
-.brandName{
+.brandName {
     color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navigation a {
+    color: white;
+}
+
+.navigation .active {
     font-weight: bold;
 }
 
-.navigation a{
-    color: white;
+.hero{
+    text-align: center;
 }
 
-.navigation .active{
-    font-weight: bold;
+.hero img {
+    max-width: 350px;
+}
+
+.hero h1{
+    color: var(--light-purple);
 }
