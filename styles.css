@@ -3,7 +3,6 @@
 :root {
     --primary-color: #059669;
     --dark-purple: #6366F1;
-    /* #575a89; */
     --light-gray: #F3F4F6;
 }
 
@@ -77,7 +76,7 @@ hr {
     text-align: center;
 }
 
-.hero img {
+.hero-img {
     max-width: 350px;
 }
 
